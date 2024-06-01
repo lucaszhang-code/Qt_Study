@@ -1,0 +1,16 @@
+# ninja log v5
+108	413	7389388105272485	demo1_4_autogen/timestamp	4463a0544f8e3d18
+5844	7328	7389388167183585	demo1_4.exe	6a07a0fc7fdc1b05
+108	413	7389388105272485	demo1_4_autogen/mocs_compilation.cpp	4463a0544f8e3d18
+228	362	7388741913346555	CMakeFiles/demo1_4.dir/demo1_4_autogen/mocs_compilation.cpp.obj	8e570b58036b0a84
+281	3618	7388758361799227	CMakeFiles/demo1_4.dir/main.cpp.obj	93654d03ab1689b
+27	958	7389389373158433	build.ninja	20179783b68f12c2
+442	5842	7389388159539492	CMakeFiles/demo1_4.dir/widget.cpp.obj	8c7f2fca4c0ecf99
+90	641	7389389441183741	demo1_4_autogen/timestamp	1c3579d4442784a9
+90	641	7389389441183741	demo1_4_autogen/mocs_compilation.cpp	1c3579d4442784a9
+90	641	7389389441183741	C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_4/cmake-build-debug/demo1_4_autogen/timestamp	1c3579d4442784a9
+90	641	7389389441183741	C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_4/cmake-build-debug/demo1_4_autogen/mocs_compilation.cpp	1c3579d4442784a9
+644	825	7389389442960201	CMakeFiles/demo1_4.dir/demo1_4_autogen/mocs_compilation.cpp.obj	6924813eb39bde26
+652	5886	7389389493587020	CMakeFiles/demo1_4.dir/main.cpp.obj	dc418d15b0b86c20
+661	5916	7389389493900902	CMakeFiles/demo1_4.dir/widget.cpp.obj	c74d1b471e31c20e
+5917	6802	7389389499062883	demo1_4.exe	2a41f3761a43f57c

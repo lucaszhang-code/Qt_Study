@@ -1,0 +1,5 @@
+C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/CMakeFiles/demo1_3.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/CMakeFiles/demo1_3_autogen_timestamp_deps.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/CMakeFiles/demo1_3_autogen.dir

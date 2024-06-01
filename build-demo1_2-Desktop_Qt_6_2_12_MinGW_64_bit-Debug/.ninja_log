@@ -1,0 +1,22 @@
+# ninja log v5
+45	2075	7388687311530219	demo1_2_autogen/timestamp	7aebd0666db1d3eb
+45	2075	7388687311530219	demo1_2_autogen/mocs_compilation.cpp	7aebd0666db1d3eb
+45	2075	7388687311530219	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo1_2-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo1_2_autogen/timestamp	7aebd0666db1d3eb
+2081	6278	7388687355039366	CMakeFiles/demo1_2.dir/main.cpp.obj	52124288f7daa179
+45	2075	7388687311530219	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo1_2-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo1_2_autogen/mocs_compilation.cpp	7aebd0666db1d3eb
+2076	6220	7388687354444443	CMakeFiles/demo1_2.dir/demo1_2_autogen/mocs_compilation.cpp.obj	4170283ddb6bfd04
+2088	6315	7388687355407788	CMakeFiles/demo1_2.dir/dialog.cpp.obj	e2dcb4b46496ca41
+6316	6723	7388687359463911	demo1_2.exe	83f8437bc705e2ad
+28	398	7388702151768516	demo1_2_autogen/timestamp	7aebd0666db1d3eb
+28	398	7388702151768516	demo1_2_autogen/mocs_compilation.cpp	7aebd0666db1d3eb
+28	398	7388702151768516	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo1_2-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo1_2_autogen/timestamp	7aebd0666db1d3eb
+28	398	7388702151768516	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo1_2-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo1_2_autogen/mocs_compilation.cpp	7aebd0666db1d3eb
+481	3614	7388702183830391	CMakeFiles/demo1_2.dir/main.cpp.obj	52124288f7daa179
+487	3674	7388702184505194	CMakeFiles/demo1_2.dir/dialog.cpp.obj	e2dcb4b46496ca41
+3675	4058	7388702188304249	demo1_2.exe	83f8437bc705e2ad
+46	393	7388702481438114	demo1_2_autogen/timestamp	7aebd0666db1d3eb
+46	393	7388702481438114	demo1_2_autogen/mocs_compilation.cpp	7aebd0666db1d3eb
+46	393	7388702481438114	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo1_2-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo1_2_autogen/timestamp	7aebd0666db1d3eb
+46	393	7388702481438114	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo1_2-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo1_2_autogen/mocs_compilation.cpp	7aebd0666db1d3eb
+479	2792	7388702505408067	CMakeFiles/demo1_2.dir/dialog.cpp.obj	e2dcb4b46496ca41
+2794	3162	7388702509096756	demo1_2.exe	83f8437bc705e2ad

@@ -1,0 +1,16 @@
+# ninja log v5
+41	1685	7388699595189509	demo1_3_autogen/timestamp	b4afcf15c4671634
+41	1685	7388699595189509	demo1_3_autogen/mocs_compilation.cpp	b4afcf15c4671634
+1692	5523	7388699635181827	CMakeFiles/demo1_3.dir/main.cpp.obj	b23a6cabe658e01b
+1687	5516	7388699635109933	CMakeFiles/demo1_3.dir/demo1_3_autogen/mocs_compilation.cpp.obj	35bf6ff7cb7acfc3
+5550	6201	7388699639188888	demo1_3.exe	c29d196040281974
+1697	5549	7388699635459086	CMakeFiles/demo1_3.dir/dialog.cpp.obj	60a4a09cba09f822
+41	1685	7388699595189509	C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/demo1_3_autogen/timestamp	b4afcf15c4671634
+41	1685	7388699595189509	C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/demo1_3_autogen/mocs_compilation.cpp	b4afcf15c4671634
+56	427	7388759151677731	demo1_3_autogen/timestamp	b4afcf15c4671634
+56	427	7388759151677731	demo1_3_autogen/mocs_compilation.cpp	b4afcf15c4671634
+56	427	7388759151677731	C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/demo1_3_autogen/timestamp	b4afcf15c4671634
+56	427	7388759151677731	C:/Users/Lucas/Desktop/Study/Qt_Study/demo1_3/cmake-build-debug/demo1_3_autogen/mocs_compilation.cpp	b4afcf15c4671634
+504	3560	7388759182960929	CMakeFiles/demo1_3.dir/main.cpp.obj	b23a6cabe658e01b
+510	3594	7388759183278873	CMakeFiles/demo1_3.dir/dialog.cpp.obj	60a4a09cba09f822
+3595	4252	7388759186856140	demo1_3.exe	c29d196040281974
