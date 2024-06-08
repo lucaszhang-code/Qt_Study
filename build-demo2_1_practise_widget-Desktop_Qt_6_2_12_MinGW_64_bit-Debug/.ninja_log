@@ -1,0 +1,20 @@
+# ninja log v5
+4	1380	7394464668025246	demo2_1_practise_widget_autogen/timestamp	9a71609bc481f271
+4	1380	7394464668025246	demo2_1_practise_widget_autogen/mocs_compilation.cpp	9a71609bc481f271
+4	1380	7394464668025246	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo2_1_practise_widget_autogen/timestamp	9a71609bc481f271
+4	1380	7394464668025246	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo2_1_practise_widget_autogen/mocs_compilation.cpp	9a71609bc481f271
+1383	3562	7394464691308916	CMakeFiles/demo2_1_practise_widget.dir/demo2_1_practise_widget_autogen/mocs_compilation.cpp.obj	77fece0ea28b6f57
+1388	3771	7394464693413268	CMakeFiles/demo2_1_practise_widget.dir/main.cpp.obj	694caa71566314f5
+1393	4370	7394464699409077	CMakeFiles/demo2_1_practise_widget.dir/widget.cpp.obj	4237a1e57050e146
+4372	4833	7394464703976445	demo2_1_practise_widget.exe	a17ad4fa4a204f20
+17	362	7394476320178606	demo2_1_practise_widget_autogen/timestamp	9a71609bc481f271
+17	362	7394476320178606	demo2_1_practise_widget_autogen/mocs_compilation.cpp	9a71609bc481f271
+17	362	7394476320178606	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo2_1_practise_widget_autogen/timestamp	9a71609bc481f271
+17	362	7394476320178606	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo2_1_practise_widget_autogen/mocs_compilation.cpp	9a71609bc481f271
+425	4722	7394476363706073	CMakeFiles/demo2_1_practise_widget.dir/widget.cpp.obj	4237a1e57050e146
+22	346	7394476557734337	demo2_1_practise_widget_autogen/timestamp	9a71609bc481f271
+22	346	7394476557734337	demo2_1_practise_widget_autogen/mocs_compilation.cpp	9a71609bc481f271
+22	346	7394476557734337	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo2_1_practise_widget_autogen/timestamp	9a71609bc481f271
+22	346	7394476557734337	C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/demo2_1_practise_widget_autogen/mocs_compilation.cpp	9a71609bc481f271
+408	2757	7394476581828996	CMakeFiles/demo2_1_practise_widget.dir/widget.cpp.obj	4237a1e57050e146
+2759	3137	7394476585535773	demo2_1_practise_widget.exe	a17ad4fa4a204f20

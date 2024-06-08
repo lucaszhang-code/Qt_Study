@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b0a2d82a043b731705b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo2_2_TestEditor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo2_2_TestEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo2_2_TestEditor-Debug-14f8e4a4437d3d3af4a0.json",
+					"name" : "demo2_2_TestEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo2_2_TestEditor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo2_2_TestEditor_autogen-Debug-427102b0cc74ce9a79fb.json",
+					"name" : "demo2_2_TestEditor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo2_2_TestEditor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo2_2_TestEditor_autogen_timestamp_deps-Debug-80162a4a604f9cd1c2d9.json",
+					"name" : "demo2_2_TestEditor_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_2_TestEditor-Desktop_Qt_6_2_12_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Lucas/Desktop/Study/Qt_Study/demo2_2_TestEditor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

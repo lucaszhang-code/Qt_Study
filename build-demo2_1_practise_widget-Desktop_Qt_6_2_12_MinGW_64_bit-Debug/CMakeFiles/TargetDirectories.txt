@@ -1,0 +1,9 @@
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/demo2_1_practise_widget.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/demo2_1_practise_widget_autogen_timestamp_deps.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-demo2_1_practise_widget-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/demo2_1_practise_widget_autogen.dir
