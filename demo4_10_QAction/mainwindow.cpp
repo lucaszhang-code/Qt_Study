@@ -53,9 +53,7 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
-    if (labFile) {
-        delete labFile; // 删除 labFile 防止内存泄漏
-    }
+
 }
 
 void MainWindow::on_actFile_New_triggered()
@@ -127,13 +125,17 @@ void MainWindow::on_actFont_Italic_triggered(bool checked)
     ui->textEdit->setCurrentCharFormat(fmt);
 }
 
+// 当用户选择了不同的字体大小时，会发送on_fontSize_changed信号，同时调用函数
 void MainWindow::on_fontSize_changed(int fontSize){
     QTextCharFormat fmt = ui->textEdit->currentCharFormat();
+    // 将选中的文字片段的字体大小设置为fontSize
     fmt.setFontPointSize(fontSize);
     ui->textEdit->setCurrentCharFormat(fmt);
+    // 同时将进度条的数值设置为fontSize
     progressBar->setValue(fontSize);
 }
 
+//
 void MainWindow::on_font_Changed(const QFont &font){
     QTextCharFormat fmt = ui->textEdit->currentCharFormat();
     fmt.setFont(font);
