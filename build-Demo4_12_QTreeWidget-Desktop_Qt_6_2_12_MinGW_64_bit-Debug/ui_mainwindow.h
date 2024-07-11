@@ -154,7 +154,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 692, 482));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 700, 496));
         horizontalLayout = new QHBoxLayout(scrollAreaWidgetContents);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         labPic = new QLabel(scrollAreaWidgetContents);
@@ -170,7 +170,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 995, 25));
+        menubar->setGeometry(QRect(0, 0, 995, 21));
         menu = new QMenu(menubar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menubar);

@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "imagePath": ":/image/lu_tcfish.jpeg",
+        "name": "鲁——糖醋黄河鲤鱼",
+        "price": 36,
+        "salesCount": 28
+    },
+    {
+        "id": 2,
+        "imagePath": ":/image/chuan_mpdoufu.jpg",
+        "name": "川——麻婆豆腐",
+        "price": 15,
+        "salesCount": 13
+    },
+    {
+        "id": 3,
+        "imagePath": ":/image/yue_bcchick.jpg",
+        "name": "粤——白切鸡",
+        "price": 25,
+        "salesCount": 25
+    },
+    {
+        "id": 4,
+        "imagePath": ":/image/su_ssfish.jpg",
+        "name": "苏——松鼠鳜鱼",
+        "price": 36,
+        "salesCount": 13
+    },
+    {
+        "id": 5,
+        "imagePath": ":/image/min_sxnodooss.png",
+        "name": "闽——沙县拌面",
+        "price": 36,
+        "salesCount": 34
+    },
+    {
+        "id": 6,
+        "imagePath": ":/image/zhe_xhfish.png",
+        "name": "浙——西湖醋鱼",
+        "price": 30,
+        "salesCount": 23
+    },
+    {
+        "id": 7,
+        "imagePath": ":/image/xaing_mdoufu.jpg",
+        "name": "湘——剁椒鱼头",
+        "price": 25,
+        "salesCount": 29
+    },
+    {
+        "id": 8,
+        "imagePath": ":/image/hui_mdoufu.png",
+        "name": "徽——毛豆腐",
+        "price": 14,
+        "salesCount": 34
+    },
+    {
+        "id": 9,
+        "imagePath": ":/image/lu_cbhaishen.jpg",
+        "name": "鲁——葱爆海参",
+        "price": 38,
+        "salesCount": 56
+    },
+    {
+        "id": 10,
+        "imagePath": ":/image/chuan_szmeet.jpg",
+        "name": "川——水煮牛肉",
+        "price": 36,
+        "salesCount": 12
+    },
+    {
+        "id": 11,
+        "imagePath": ":/image/yue_sgoosse.jpg",
+        "name": "粤——烧鹅",
+        "price": 20,
+        "salesCount": 45
+    },
+    {
+        "id": 12,
+        "imagePath": ":/image/su_yzrice.png",
+        "name": "苏——扬州炒饭",
+        "price": 15,
+        "salesCount": 67
+    },
+    {
+        "id": 13,
+        "imagePath": ":/image/min_fzyw.jpg",
+        "name": "闽——福州鱼丸",
+        "price": 20,
+        "salesCount": 23
+    },
+    {
+        "id": 14,
+        "imagePath": ":/image/zhe_ljxr.png",
+        "name": "浙——龙井虾仁",
+        "price": 38,
+        "salesCount": 23
+    },
+    {
+        "id": 15,
+        "imagePath": ":/image/xiang_xxwpc.jpg",
+        "name": "湘——湘西外婆菜",
+        "price": 12,
+        "salesCount": 50
+    },
+    {
+        "id": 16,
+        "imagePath": ":/image/hui_cjfish.png",
+        "name": "徽——徽州臭鳜鱼",
+        "price": 20,
+        "salesCount": 16
+    },
+    {
+        "id": 17,
+        "imagePath": ":/image/lu_jzdc.jpg",
+        "name": "鲁——九转大肠",
+        "price": 36,
+        "salesCount": 20
+    },
+    {
+        "id": 18,
+        "imagePath": ":/image/chuan_gbchick.png",
+        "name": "川——宫保鸡丁",
+        "price": 34,
+        "salesCount": 10
+    },
+    {
+        "id": 19,
+        "imagePath": ":/image/yue_mzcs.png",
+        "name": "粤——蜜汁叉烧",
+        "price": 20,
+        "salesCount": 18
+    },
+    {
+        "id": 20,
+        "imagePath": ":/image/su_szt.png",
+        "name": "苏——清炖蟹粉狮子头",
+        "price": 36,
+        "salesCount": 20
+    }
+]

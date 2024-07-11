@@ -1,0 +1,57 @@
+[
+    {
+        "id": "2024070901",
+        "storeMain": "企业",
+        "storeKind": "餐饮",
+        "name": "张兰",
+        "idNum": "123456789012345678",
+        "bankCard": "6222020101010101010",
+        "licence": ":/licence/1.jpg",
+        "auditStatus": true,
+        "isPass":"通过"
+    },
+    {
+        "id": "2024070902",
+        "storeMain": "个体",
+        "storeKind": "专营",
+        "name": "林浅",
+        "idNum": "987654321098765432",
+        "bankCard": "6222020101010101011",
+        "licence": ":/licence/2.png",
+        "auditStatus": false,
+        "isPass":""
+    },
+    {
+        "id": "2024070903",
+        "storeMain": "企业",
+        "storeKind": "餐饮",
+        "name": "苏兴",
+        "idNum": "123456789012345679",
+        "bankCard": "6222020101010101012",
+        "licence": ":/licence/3.png",
+        "auditStatus": true,
+        "isPass":"通过"
+    },
+    {
+        "id": "2024070904",
+        "storeMain": "个体",
+        "storeKind": "专营",
+        "name": "赵一平",
+        "idNum": "987654321098765431",
+        "bankCard": "6222020101010101013",
+        "licence": ":/licence/4.png",
+        "auditStatus": false,
+        "isPass":""
+    },
+    {
+        "id": "2024070905",
+        "storeMain": "企业",
+        "storeKind": "餐饮",
+        "name": "孙顺",
+        "idNum": "123456789012345680",
+        "bankCard": "6222020101010101014",
+        "licence": ":/licence/5.png",
+        "auditStatus": true,
+        "isPass":"通过"
+    }
+]

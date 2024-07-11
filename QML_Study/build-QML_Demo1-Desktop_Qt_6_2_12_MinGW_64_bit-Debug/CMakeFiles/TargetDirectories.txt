@@ -1,0 +1,15 @@
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1_qmltyperegistration.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/all_qmltyperegistrations.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1_other_files.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1_qmllint.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/all_qmllint.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1_tooling.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1_autogen_timestamp_deps.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/QML_Study/build-QML_Demo1-Desktop_Qt_6_2_12_MinGW_64_bit-Debug/CMakeFiles/appQML_Demo1_autogen.dir
