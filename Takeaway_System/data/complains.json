@@ -1,0 +1,42 @@
+[
+    {
+        "complainId": "1234567890",
+        "id": "20240709000001",
+        "complainText": "商品质量不好,外卖送的时候汤撒了一地",
+        "complainImage": ":/complainImage/1.png",
+        "answer": "收到亲，这边正在为您核实情况",
+        "processingStatus": true
+    },
+    {
+        "complainId": "1234567891",
+        "id": "20240709000002",
+        "complainText": "配送时间过长",
+        "complainImage": ":/complainImage/2.png",
+        "answer": "",
+        "processingStatus": false
+    },
+    {
+        "complainId": "1234567892",
+        "id": "20240709000003",
+        "complainText": "客服态度恶劣",
+        "complainImage": ":/complainImage/3.png",
+        "answer": "好的亲，正在为您核实情况",
+        "processingStatus": true
+    },
+    {
+        "complainId": "1234567893",
+        "id": "20240709000004",
+        "complainText": "商品与描述不符",
+        "complainImage": ":/complainImage/4.png",
+        "answer": "",
+        "processingStatus": false
+    },
+    {
+        "complainId": "1234567894",
+        "id": "20240709000005",
+        "complainText": "退款流程复杂",
+        "complainImage": ":/complainImage/5.png",
+        "answer": "",
+        "processingStatus": false
+    }
+]

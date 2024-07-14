@@ -4,28 +4,28 @@
         "imagePath": ":/image/lu_tcfish.jpeg",
         "name": "鲁——糖醋黄河鲤鱼",
         "price": 36,
-        "salesCount": 26
+        "salesCount": 28
     },
     {
         "id": 2,
         "imagePath": ":/image/chuan_mpdoufu.jpg",
         "name": "川——麻婆豆腐",
         "price": 15,
-        "salesCount": 12
+        "salesCount": 13
     },
     {
         "id": 3,
         "imagePath": ":/image/yue_bcchick.jpg",
         "name": "粤——白切鸡",
         "price": 25,
-        "salesCount": 24
+        "salesCount": 25
     },
     {
         "id": 4,
         "imagePath": ":/image/su_ssfish.jpg",
         "name": "苏——松鼠鳜鱼",
         "price": 36,
-        "salesCount": 12
+        "salesCount": 13
     },
     {
         "id": 5,
@@ -138,12 +138,5 @@
         "name": "苏——清炖蟹粉狮子头",
         "price": 36,
         "salesCount": 20
-    },
-    {
-        "id": 21,
-        "imagePath": "C:/Users/Lucas/Desktop/Study/Qt_Study/Takeaway_System/image/testImage.jpg",
-        "name": "小吉祥草王",
-        "price": 648,
-        "salesCount": 0
     }
 ]

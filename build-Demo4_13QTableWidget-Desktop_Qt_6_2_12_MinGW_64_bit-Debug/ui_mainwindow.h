@@ -37,22 +37,22 @@ public:
     QSplitter *splitter_2;
     QGroupBox *groupBox;
     QGridLayout *gridLayout;
-    QPushButton *btn_setHeader;
     QPushButton *btnSetRow;
-    QSpinBox *spinBox;
-    QPushButton *btnIniData;
+    QSpinBox *spinRowCount;
     QPushButton *btnInsertRow;
     QPushButton *btnAddRow;
-    QPushButton *btnDelCurRow;
     QPushButton *btnAutoHeight;
     QPushButton *btnAutoWidth;
+    QCheckBox *chkBoxTabEditable;
+    QCheckBox *chkBoxRowColor;
+    QCheckBox *chkBoxHeaderH;
+    QCheckBox *chkBoxHeaderV;
+    QRadioButton *rBtnSelectRow;
+    QRadioButton *rBtnSelectItem;
+    QPushButton *btn_setHeader;
     QPushButton *btnReadToEdit;
-    QCheckBox *checkBox;
-    QCheckBox *checkBox_2;
-    QCheckBox *checkBox_3;
-    QCheckBox *checkBox_4;
-    QRadioButton *radioButton;
-    QRadioButton *radioButton_2;
+    QPushButton *btnIniData;
+    QPushButton *btnDelCurRow;
     QSplitter *splitter;
     QTableWidget *tableWidget;
     QPlainTextEdit *plainTextEdit;
@@ -75,25 +75,15 @@ public:
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         gridLayout = new QGridLayout(groupBox);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        btn_setHeader = new QPushButton(groupBox);
-        btn_setHeader->setObjectName(QString::fromUtf8("btn_setHeader"));
-
-        gridLayout->addWidget(btn_setHeader, 0, 0, 1, 2);
-
         btnSetRow = new QPushButton(groupBox);
         btnSetRow->setObjectName(QString::fromUtf8("btnSetRow"));
 
         gridLayout->addWidget(btnSetRow, 1, 0, 1, 1);
 
-        spinBox = new QSpinBox(groupBox);
-        spinBox->setObjectName(QString::fromUtf8("spinBox"));
+        spinRowCount = new QSpinBox(groupBox);
+        spinRowCount->setObjectName(QString::fromUtf8("spinRowCount"));
 
-        gridLayout->addWidget(spinBox, 1, 1, 1, 1);
-
-        btnIniData = new QPushButton(groupBox);
-        btnIniData->setObjectName(QString::fromUtf8("btnIniData"));
-
-        gridLayout->addWidget(btnIniData, 2, 0, 1, 2);
+        gridLayout->addWidget(spinRowCount, 1, 1, 1, 1);
 
         btnInsertRow = new QPushButton(groupBox);
         btnInsertRow->setObjectName(QString::fromUtf8("btnInsertRow"));
@@ -105,11 +95,6 @@ public:
 
         gridLayout->addWidget(btnAddRow, 3, 1, 1, 1);
 
-        btnDelCurRow = new QPushButton(groupBox);
-        btnDelCurRow->setObjectName(QString::fromUtf8("btnDelCurRow"));
-
-        gridLayout->addWidget(btnDelCurRow, 4, 0, 1, 2);
-
         btnAutoHeight = new QPushButton(groupBox);
         btnAutoHeight->setObjectName(QString::fromUtf8("btnAutoHeight"));
 
@@ -120,41 +105,61 @@ public:
 
         gridLayout->addWidget(btnAutoWidth, 5, 1, 1, 1);
 
+        chkBoxTabEditable = new QCheckBox(groupBox);
+        chkBoxTabEditable->setObjectName(QString::fromUtf8("chkBoxTabEditable"));
+        chkBoxTabEditable->setChecked(true);
+
+        gridLayout->addWidget(chkBoxTabEditable, 7, 0, 1, 1);
+
+        chkBoxRowColor = new QCheckBox(groupBox);
+        chkBoxRowColor->setObjectName(QString::fromUtf8("chkBoxRowColor"));
+        chkBoxRowColor->setChecked(false);
+
+        gridLayout->addWidget(chkBoxRowColor, 7, 1, 1, 1);
+
+        chkBoxHeaderH = new QCheckBox(groupBox);
+        chkBoxHeaderH->setObjectName(QString::fromUtf8("chkBoxHeaderH"));
+        chkBoxHeaderH->setChecked(true);
+
+        gridLayout->addWidget(chkBoxHeaderH, 8, 0, 1, 1);
+
+        chkBoxHeaderV = new QCheckBox(groupBox);
+        chkBoxHeaderV->setObjectName(QString::fromUtf8("chkBoxHeaderV"));
+        chkBoxHeaderV->setChecked(true);
+
+        gridLayout->addWidget(chkBoxHeaderV, 8, 1, 1, 1);
+
+        rBtnSelectRow = new QRadioButton(groupBox);
+        rBtnSelectRow->setObjectName(QString::fromUtf8("rBtnSelectRow"));
+
+        gridLayout->addWidget(rBtnSelectRow, 9, 0, 1, 1);
+
+        rBtnSelectItem = new QRadioButton(groupBox);
+        rBtnSelectItem->setObjectName(QString::fromUtf8("rBtnSelectItem"));
+        rBtnSelectItem->setChecked(true);
+
+        gridLayout->addWidget(rBtnSelectItem, 9, 1, 1, 1);
+
+        btn_setHeader = new QPushButton(groupBox);
+        btn_setHeader->setObjectName(QString::fromUtf8("btn_setHeader"));
+
+        gridLayout->addWidget(btn_setHeader, 0, 0, 1, 2);
+
         btnReadToEdit = new QPushButton(groupBox);
         btnReadToEdit->setObjectName(QString::fromUtf8("btnReadToEdit"));
-        btnReadToEdit->setMaximumSize(QSize(300, 16777215));
+        btnReadToEdit->setMaximumSize(QSize(16777215, 16777215));
 
         gridLayout->addWidget(btnReadToEdit, 6, 0, 1, 2);
 
-        checkBox = new QCheckBox(groupBox);
-        checkBox->setObjectName(QString::fromUtf8("checkBox"));
+        btnIniData = new QPushButton(groupBox);
+        btnIniData->setObjectName(QString::fromUtf8("btnIniData"));
 
-        gridLayout->addWidget(checkBox, 7, 0, 1, 1);
+        gridLayout->addWidget(btnIniData, 2, 0, 1, 2);
 
-        checkBox_2 = new QCheckBox(groupBox);
-        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
+        btnDelCurRow = new QPushButton(groupBox);
+        btnDelCurRow->setObjectName(QString::fromUtf8("btnDelCurRow"));
 
-        gridLayout->addWidget(checkBox_2, 7, 1, 1, 1);
-
-        checkBox_3 = new QCheckBox(groupBox);
-        checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
-
-        gridLayout->addWidget(checkBox_3, 8, 0, 1, 1);
-
-        checkBox_4 = new QCheckBox(groupBox);
-        checkBox_4->setObjectName(QString::fromUtf8("checkBox_4"));
-
-        gridLayout->addWidget(checkBox_4, 8, 1, 1, 1);
-
-        radioButton = new QRadioButton(groupBox);
-        radioButton->setObjectName(QString::fromUtf8("radioButton"));
-
-        gridLayout->addWidget(radioButton, 9, 0, 1, 1);
-
-        radioButton_2 = new QRadioButton(groupBox);
-        radioButton_2->setObjectName(QString::fromUtf8("radioButton_2"));
-
-        gridLayout->addWidget(radioButton_2, 9, 1, 1, 1);
+        gridLayout->addWidget(btnDelCurRow, 4, 0, 1, 2);
 
         splitter_2->addWidget(groupBox);
         splitter = new QSplitter(splitter_2);
@@ -173,7 +178,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 862, 25));
+        menubar->setGeometry(QRect(0, 0, 862, 21));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -188,21 +193,21 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "QTableWidgetDemo", nullptr));
         groupBox->setTitle(QString());
-        btn_setHeader->setText(QCoreApplication::translate("MainWindow", "\350\256\276\347\275\256\346\260\264\345\271\263\350\241\250\345\244\264", nullptr));
         btnSetRow->setText(QCoreApplication::translate("MainWindow", "\350\256\276\347\275\256\350\241\214\346\225\260", nullptr));
-        btnIniData->setText(QCoreApplication::translate("MainWindow", "\345\210\235\345\247\213\345\214\226\350\241\250\346\240\274\346\225\260\346\215\256", nullptr));
         btnInsertRow->setText(QCoreApplication::translate("MainWindow", "\346\217\222\345\205\245\350\241\214", nullptr));
         btnAddRow->setText(QCoreApplication::translate("MainWindow", "\346\267\273\345\212\240\350\241\214", nullptr));
-        btnDelCurRow->setText(QCoreApplication::translate("MainWindow", "\345\210\240\351\231\244\345\275\223\345\211\215\350\241\214", nullptr));
         btnAutoHeight->setText(QCoreApplication::translate("MainWindow", "\350\207\252\345\212\250\350\260\203\350\212\202\350\241\214\351\253\230", nullptr));
         btnAutoWidth->setText(QCoreApplication::translate("MainWindow", "\350\207\252\345\212\250\350\260\203\350\212\202\345\210\227\345\256\275", nullptr));
+        chkBoxTabEditable->setText(QCoreApplication::translate("MainWindow", "\350\241\250\346\240\274\345\217\257\347\274\226\350\276\221", nullptr));
+        chkBoxRowColor->setText(QCoreApplication::translate("MainWindow", "\351\227\264\351\232\224\350\241\214\345\272\225\350\211\262", nullptr));
+        chkBoxHeaderH->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\346\260\264\345\271\263\350\241\250\345\244\264", nullptr));
+        chkBoxHeaderV->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\345\236\202\347\233\264\350\241\250\345\244\264", nullptr));
+        rBtnSelectRow->setText(QCoreApplication::translate("MainWindow", "\350\241\214\351\200\211\346\213\251", nullptr));
+        rBtnSelectItem->setText(QCoreApplication::translate("MainWindow", "\345\215\225\345\205\203\346\240\274\351\200\211\346\213\251", nullptr));
+        btn_setHeader->setText(QCoreApplication::translate("MainWindow", "\350\256\276\347\275\256\346\260\264\345\271\263\350\241\250\345\244\264", nullptr));
         btnReadToEdit->setText(QCoreApplication::translate("MainWindow", "\350\257\273\345\217\226\350\241\250\346\240\274\345\206\205\345\256\271\345\210\260\346\226\207\346\234\254", nullptr));
-        checkBox->setText(QCoreApplication::translate("MainWindow", "\350\241\250\346\240\274\345\217\257\347\274\226\350\276\221", nullptr));
-        checkBox_2->setText(QCoreApplication::translate("MainWindow", "\351\227\264\351\232\224\350\241\214\345\272\225\350\211\262", nullptr));
-        checkBox_3->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\346\260\264\345\271\263\350\241\250\345\244\264", nullptr));
-        checkBox_4->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\345\236\202\347\233\264\350\241\250\345\244\264", nullptr));
-        radioButton->setText(QCoreApplication::translate("MainWindow", "\350\241\214\351\200\211\346\213\251", nullptr));
-        radioButton_2->setText(QCoreApplication::translate("MainWindow", "\345\215\225\345\205\203\346\240\274\351\200\211\346\213\251", nullptr));
+        btnIniData->setText(QCoreApplication::translate("MainWindow", "\345\210\235\345\247\213\345\214\226\350\241\250\346\240\274\346\225\260\346\215\256", nullptr));
+        btnDelCurRow->setText(QCoreApplication::translate("MainWindow", "\345\210\240\351\231\244\345\275\223\345\211\215\350\241\214", nullptr));
     } // retranslateUi
 
 };

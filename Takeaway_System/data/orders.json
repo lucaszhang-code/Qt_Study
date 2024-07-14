@@ -4,24 +4,6 @@
         "cartList": [
             {
                 "count": 1,
-                "imagePath": ":/image/lu_tcfish.jpeg",
-                "name": "鲁——糖醋黄河鲤鱼",
-                "subSum": 36
-            }
-        ],
-        "orderSum": 36,
-        "order_address": "一教",
-        "order_contactInfo": "12076587349",
-        "order_date": "2024-07-08 19:03:12",
-        "order_gender": "女",
-        "order_id": "20240708190312",
-        "order_name": "宋一"
-    },
-    {
-        "canDelete": false,
-        "cartList": [
-            {
-                "count": 1,
                 "imagePath": ":/image/yue_mzcs.png",
                 "name": "粤——蜜汁叉烧",
                 "subSum": 20
@@ -58,35 +40,35 @@
         "cartList": [
             {
                 "count": 1,
-                "imagePath": ":/image/chuan_gbchick.png",
-                "name": "川——宫保鸡丁",
-                "subSum": 34
-            }
-        ],
-        "orderSum": 34,
-        "order_address": "文科楼",
-        "order_contactInfo": "19856783456",
-        "order_date": "2024-07-08 19:03:14",
-        "order_gender": "女",
-        "order_id": "20240708190314",
-        "order_name": "宋四"
-    },
-    {
-        "canDelete": false,
-        "cartList": [
+                "imagePath": ":/image/lu_tcfish.jpeg",
+                "name": "鲁——糖醋黄河鲤鱼",
+                "subSum": 36
+            },
             {
                 "count": 1,
-                "imagePath": ":/image/lu_cbhaishen.jpg",
-                "name": "鲁-葱爆海参",
-                "subSum": 38
+                "imagePath": ":/image/chuan_mpdoufu.jpg",
+                "name": "川——麻婆豆腐",
+                "subSum": 15
+            },
+            {
+                "count": 1,
+                "imagePath": ":/image/yue_bcchick.jpg",
+                "name": "粤——白切鸡",
+                "subSum": 25
+            },
+            {
+                "count": 1,
+                "imagePath": ":/image/su_ssfish.jpg",
+                "name": "苏——松鼠鳜鱼",
+                "subSum": 36
             }
         ],
-        "orderSum": 38,
-        "order_address": "科技楼",
-        "order_contactInfo": "10023458765",
-        "order_date": "2024-07-08 19:03:14",
-        "order_gender": "女",
-        "order_id": "20240708190314",
-        "order_name": "宋五"
+        "orderSum": 112,
+        "order_address": "一教",
+        "order_contactInfo": "18382243428",
+        "order_date": "2024-07-11 16:50:52",
+        "order_gender": "男",
+        "order_id": "20240711165052",
+        "order_name": "Lucas"
     }
 ]
