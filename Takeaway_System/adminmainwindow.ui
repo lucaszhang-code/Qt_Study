@@ -18,7 +18,7 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="page_admin">
        <widget class="QLabel" name="label">
@@ -211,7 +211,7 @@
            </property>
            <property name="dateTime">
             <datetime>
-             <hour>8</hour>
+             <hour>0</hour>
              <minute>0</minute>
              <second>0</second>
              <year>2004</year>
@@ -648,8 +648,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>278</width>
-             <height>541</height>
+             <width>268</width>
+             <height>589</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_9">
@@ -802,7 +802,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <x>0</x>
      <y>0</y>
      <width>945</width>
-     <height>25</height>
+     <height>17</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">

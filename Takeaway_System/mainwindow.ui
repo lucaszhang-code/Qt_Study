@@ -177,7 +177,7 @@
            </property>
            <property name="dateTime">
             <datetime>
-             <hour>16</hour>
+             <hour>8</hour>
              <minute>0</minute>
              <second>0</second>
              <year>2004</year>
@@ -370,8 +370,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>660</width>
-             <height>472</height>
+             <width>700</width>
+             <height>548</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_6"/>
@@ -744,8 +744,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>278</width>
-             <height>477</height>
+             <width>268</width>
+             <height>555</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -868,8 +868,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>660</width>
-             <height>513</height>
+             <width>76</width>
+             <height>16</height>
             </rect>
            </property>
           </widget>
@@ -1539,7 +1539,7 @@
      <x>0</x>
      <y>0</y>
      <width>1007</width>
-     <height>25</height>
+     <height>17</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
@@ -1602,8 +1602,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>278</width>
-          <height>519</height>
+          <width>268</width>
+          <height>577</height>
          </rect>
         </property>
         <attribute name="label">
