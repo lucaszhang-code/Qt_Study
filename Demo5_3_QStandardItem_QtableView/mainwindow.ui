@@ -152,6 +152,9 @@
    </property>
   </action>
   <action name="actFontBold">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="qrc.qrc">
      <normaloff>:/image/icons/500.bmp</normaloff>:/image/icons/500.bmp</iconset>

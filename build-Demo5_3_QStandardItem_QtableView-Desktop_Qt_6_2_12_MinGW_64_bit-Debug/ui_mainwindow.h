@@ -86,6 +86,7 @@ public:
         actAlignRight->setMenuRole(QAction::NoRole);
         actFontBold = new QAction(MainWindow);
         actFontBold->setObjectName(QString::fromUtf8("actFontBold"));
+        actFontBold->setCheckable(true);
         QIcon icon5;
         icon5.addFile(QString::fromUtf8(":/image/icons/500.bmp"), QSize(), QIcon::Normal, QIcon::Off);
         actFontBold->setIcon(icon5);
