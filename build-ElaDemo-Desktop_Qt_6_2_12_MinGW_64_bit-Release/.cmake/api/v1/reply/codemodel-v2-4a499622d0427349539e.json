@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0ea3742961accf6c210.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ElaDemo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ElaDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ElaDemo-Release-b2b9d77299fe9b9cd2eb.json",
+					"name" : "ElaDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ElaDemo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ElaDemo_autogen-Release-4684cfd6da8d5fcad6f9.json",
+					"name" : "ElaDemo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ElaDemo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ElaDemo_autogen_timestamp_deps-Release-93d99bae6f3708e23eb8.json",
+					"name" : "ElaDemo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release",
+		"source" : "C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

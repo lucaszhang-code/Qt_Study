@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/ElaDemo_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo",
+	"INCLUDE_DIR" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/ElaDemo_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/include/Font/ElaAwesome.ttf",
+		"C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/include/Image/Moon.jpg",
+		"C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/include/Image/noise.png",
+		"C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/include/Image/Cirno.jpg"
+	],
+	"LOCK_FILE" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/ElaDemo_autogen.dir/AutoRcc_ElaWidgetTools_6YEA5652QU_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "ElaWidgetTools" ],
+	"OUTPUT_CHECKSUM" : "6YEA5652QU",
+	"OUTPUT_NAME" : "qrc_ElaWidgetTools.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.2.12/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/ElaDemo_autogen.dir/AutoRcc_ElaWidgetTools_6YEA5652QU_Used.txt",
+	"SOURCE" : "C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/include/ElaWidgetTools.qrc",
+	"VERBOSITY" : 0
+}

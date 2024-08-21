@@ -1,0 +1,179 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-example-Debug-8f1010d8604f83945c9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ElaWidgetTools"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ElaWidgetToolsExample",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "elawidgettools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample-Debug-78576fa6a2cf59059522.json",
+					"name" : "ElaWidgetToolsExample",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample_autogen::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample_autogen-Debug-235934e94150b35c7e6d.json",
+					"name" : "ElaWidgetToolsExample_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample_autogen_timestamp_deps::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample_autogen_timestamp_deps-Debug-8ed1bca94008da48da15.json",
+					"name" : "ElaWidgetToolsExample_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample_other_files::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample_other_files-Debug-31c491cdd76072c45fb0.json",
+					"name" : "ElaWidgetToolsExample_other_files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools-Debug-7acfe2ae22bc22ddf34d.json",
+					"name" : "elawidgettools",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools_autogen::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools_autogen-Debug-b4c386017529566bb9b8.json",
+					"name" : "elawidgettools_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools_autogen_timestamp_deps::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools_autogen_timestamp_deps-Debug-5f014e4a0e14621e04ea.json",
+					"name" : "elawidgettools_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools_other_files::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools_other_files-Debug-7f7eb72af8916f7ac317.json",
+					"name" : "elawidgettools_other_files",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaWidgetTools-1.2.0-Desktop_Qt_6_2_12_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Lucas/Desktop/Study/Qt_Study/ElaWidgetTools-1.2.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

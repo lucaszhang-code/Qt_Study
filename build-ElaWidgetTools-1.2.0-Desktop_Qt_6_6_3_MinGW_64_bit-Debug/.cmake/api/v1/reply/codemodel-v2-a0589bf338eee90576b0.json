@@ -1,0 +1,161 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-example-Debug-8f1010d8604f83945c9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ElaWidgetTools"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ElaWidgetToolsExample",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "elawidgettools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample-Debug-31f8d1805379cf6dfbb0.json",
+					"name" : "ElaWidgetToolsExample",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample_autogen::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample_autogen-Debug-6897dbe4790c39af9379.json",
+					"name" : "ElaWidgetToolsExample_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ElaWidgetToolsExample_autogen_timestamp_deps::@70983d692f648185febe",
+					"jsonFile" : "target-ElaWidgetToolsExample_autogen_timestamp_deps-Debug-88907147cda8b958c799.json",
+					"name" : "ElaWidgetToolsExample_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools-Debug-2d3cc221a0a41c9d920e.json",
+					"name" : "elawidgettools",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools_autogen::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools_autogen-Debug-4fc6f17443bc512f4c3a.json",
+					"name" : "elawidgettools_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elawidgettools_autogen_timestamp_deps::@145eef247bfb46b6828c",
+					"jsonFile" : "target-elawidgettools_autogen_timestamp_deps-Debug-c7d4e139e28d555fea3e.json",
+					"name" : "elawidgettools_autogen_timestamp_deps",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaWidgetTools-1.2.0-Desktop_Qt_6_6_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Lucas/Desktop/Study/Qt_Study/ElaWidgetTools-1.2.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

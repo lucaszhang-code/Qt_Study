@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="include/Font/ElaAwesome.ttf">C:/Users/Lucas/Desktop/Study/Qt_Study/ElaWidgetTools-1.2.0/src/include/Font/ElaAwesome.ttf</file>
+    <file alias="include/Image/Cirno.jpg">C:/Users/Lucas/Desktop/Study/Qt_Study/ElaWidgetTools-1.2.0/src/include/Image/Cirno.jpg</file>
+    <file alias="include/Image/Moon.jpg">C:/Users/Lucas/Desktop/Study/Qt_Study/ElaWidgetTools-1.2.0/src/include/Image/Moon.jpg</file>
+    <file alias="include/Image/noise.png">C:/Users/Lucas/Desktop/Study/Qt_Study/ElaWidgetTools-1.2.0/src/include/Image/noise.png</file>
+  </qresource>
+</RCC>
+

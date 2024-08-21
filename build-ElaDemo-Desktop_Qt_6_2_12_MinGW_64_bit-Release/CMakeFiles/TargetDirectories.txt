@@ -1,0 +1,9 @@
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/ElaDemo.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/install.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/ElaDemo_autogen_timestamp_deps.dir
+C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/CMakeFiles/ElaDemo_autogen.dir
