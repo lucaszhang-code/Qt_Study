@@ -4,4 +4,6 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {}
 
-MainWindow::~MainWindow() {}
+MainWindow::~MainWindow() {
+
+}

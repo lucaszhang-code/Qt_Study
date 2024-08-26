@@ -249,7 +249,7 @@ public:
         data_admin_birth_2->setObjectName(QString::fromUtf8("data_admin_birth_2"));
         data_admin_birth_2->setMinimumSize(QSize(0, 0));
         data_admin_birth_2->setMaximumSize(QSize(16777215, 16777215));
-        data_admin_birth_2->setDateTime(QDateTime(QDate(2004, 2, 16), QTime(8, 0, 0)));
+        data_admin_birth_2->setDateTime(QDateTime(QDate(2004, 2, 16), QTime(0, 0, 0)));
 
         horizontalLayout_8->addWidget(data_admin_birth_2);
 
@@ -457,7 +457,7 @@ public:
         scrollArea_2->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
         scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 278, 541));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 268, 589));
         horizontalLayout_9 = new QHBoxLayout(scrollAreaWidgetContents_2);
         horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
         complainList = new QListWidget(scrollAreaWidgetContents_2);
@@ -519,7 +519,7 @@ public:
         AdminMainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(AdminMainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 945, 25));
+        menubar->setGeometry(QRect(0, 0, 945, 17));
         menu = new QMenu(menubar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menubar);
@@ -545,7 +545,7 @@ public:
 
         retranslateUi(AdminMainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(AdminMainWindow);

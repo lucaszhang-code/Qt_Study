@@ -22,16 +22,31 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    uint offsetsAndSizes[2];
-    char stringdata0[11];
+    uint offsetsAndSizes[22];
+    char stringdata0[194];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_MainWindow_t::offsetsAndSizes) + ofs), len 
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
-        QT_MOC_LITERAL(0, 10)   // "MainWindow"
+        QT_MOC_LITERAL(0, 10),  // "MainWindow"
+        QT_MOC_LITERAL(11, 23),  // "on_actSetRoot_triggered"
+        QT_MOC_LITERAL(35, 0),  // ""
+        QT_MOC_LITERAL(36, 23),  // "on_radioShowAll_clicked"
+        QT_MOC_LITERAL(60, 27),  // "on_radioShowOnlyDir_clicked"
+        QT_MOC_LITERAL(88, 32),  // "on_checkBox_EnableFilter_clicked"
+        QT_MOC_LITERAL(121, 7),  // "checked"
+        QT_MOC_LITERAL(129, 26),  // "on_btnApplyFilters_clicked"
+        QT_MOC_LITERAL(156, 19),  // "on_treeView_clicked"
+        QT_MOC_LITERAL(176, 11),  // "QModelIndex"
+        QT_MOC_LITERAL(188, 5)   // "index"
     },
-    "MainWindow"
+    "MainWindow\0on_actSetRoot_triggered\0\0"
+    "on_radioShowAll_clicked\0"
+    "on_radioShowOnlyDir_clicked\0"
+    "on_checkBox_EnableFilter_clicked\0"
+    "checked\0on_btnApplyFilters_clicked\0"
+    "on_treeView_clicked\0QModelIndex\0index"
 };
 #undef QT_MOC_LITERAL
 
@@ -41,22 +56,47 @@ static const uint qt_meta_data_MainWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
 
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   50,    2, 0x08,    1 /* Private */,
+       3,    0,   51,    2, 0x08,    2 /* Private */,
+       4,    0,   52,    2, 0x08,    3 /* Private */,
+       5,    1,   53,    2, 0x08,    4 /* Private */,
+       7,    0,   56,    2, 0x08,    6 /* Private */,
+       8,    1,   57,    2, 0x08,    7 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,    6,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 9,   10,
+
        0        // eod
 };
 
 void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    (void)_o;
-    (void)_id;
-    (void)_c;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<MainWindow *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->on_actSetRoot_triggered(); break;
+        case 1: _t->on_radioShowAll_clicked(); break;
+        case 2: _t->on_radioShowOnlyDir_clicked(); break;
+        case 3: _t->on_checkBox_EnableFilter_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 4: _t->on_btnApplyFilters_clicked(); break;
+        case 5: _t->on_treeView_clicked((*reinterpret_cast< std::add_pointer_t<QModelIndex>>(_a[1]))); break;
+        default: ;
+        }
+    }
 }
 
 const QMetaObject MainWindow::staticMetaObject = { {
@@ -67,7 +107,7 @@ const QMetaObject MainWindow::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_MainWindow_t
 , QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>
-
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QModelIndex &, std::false_type>
 
 
 >,
@@ -91,6 +131,17 @@ void *MainWindow::qt_metacast(const char *_clname)
 int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 6)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 6)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 6;
+    }
     return _id;
 }
 QT_WARNING_POP

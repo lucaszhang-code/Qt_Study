@@ -316,5 +316,5 @@ C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/mainwindow.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/mainwindow.h
  mdp:C:/Users/Lucas/Desktop/Study/Qt_Study/build-ElaDemo-Desktop_Qt_6_2_12_MinGW_64_bit-Release/ElaDemo_autogen/moc_predefs.h
-C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/main.cpp
 C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/mainwindow.cpp
+C:/Users/Lucas/Desktop/Study/Qt_Study/ElaDemo/main.cpp

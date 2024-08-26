@@ -50,6 +50,8 @@ public:
     QRadioButton *radioShowAll;
     QRadioButton *radioShowOnlyDir;
     QSpacerItem *horizontalSpacer;
+    QGroupBox *groupBoxFilter;
+    QHBoxLayout *horizontalLayout_6;
     QHBoxLayout *horizontalLayout_4;
     QCheckBox *checkBox_EnableFilter;
     QComboBox *comboFilters;
@@ -75,7 +77,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(856, 611);
+        MainWindow->resize(856, 644);
         actSetRoot = new QAction(MainWindow);
         actSetRoot->setObjectName(QString::fromUtf8("actSetRoot"));
         QIcon icon;
@@ -124,14 +126,18 @@ public:
 
         verticalLayout->addLayout(horizontalLayout_3);
 
+        groupBoxFilter = new QGroupBox(frame);
+        groupBoxFilter->setObjectName(QString::fromUtf8("groupBoxFilter"));
+        horizontalLayout_6 = new QHBoxLayout(groupBoxFilter);
+        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
-        checkBox_EnableFilter = new QCheckBox(frame);
+        checkBox_EnableFilter = new QCheckBox(groupBoxFilter);
         checkBox_EnableFilter->setObjectName(QString::fromUtf8("checkBox_EnableFilter"));
 
         horizontalLayout_4->addWidget(checkBox_EnableFilter);
 
-        comboFilters = new QComboBox(frame);
+        comboFilters = new QComboBox(groupBoxFilter);
         comboFilters->addItem(QString());
         comboFilters->addItem(QString());
         comboFilters->addItem(QString());
@@ -141,7 +147,7 @@ public:
 
         horizontalLayout_4->addWidget(comboFilters);
 
-        btnApplyFilters = new QPushButton(frame);
+        btnApplyFilters = new QPushButton(groupBoxFilter);
         btnApplyFilters->setObjectName(QString::fromUtf8("btnApplyFilters"));
         btnApplyFilters->setEnabled(false);
         QIcon icon2;
@@ -155,7 +161,10 @@ public:
         horizontalLayout_4->addItem(horizontalSpacer_2);
 
 
-        verticalLayout->addLayout(horizontalLayout_4);
+        horizontalLayout_6->addLayout(horizontalLayout_4);
+
+
+        verticalLayout->addWidget(groupBoxFilter);
 
 
         verticalLayout_2->addWidget(frame);
@@ -255,6 +264,7 @@ public:
         groupBox->setTitle(QCoreApplication::translate("MainWindow", "TreeView", nullptr));
         radioShowAll->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\347\233\256\345\275\225\345\222\214\346\226\207\344\273\266", nullptr));
         radioShowOnlyDir->setText(QCoreApplication::translate("MainWindow", "\345\217\252\346\230\276\347\244\272\347\233\256\345\275\225", nullptr));
+        groupBoxFilter->setTitle(QString());
         checkBox_EnableFilter->setText(QCoreApplication::translate("MainWindow", "\346\226\207\344\273\266\350\277\207\346\273\244", nullptr));
         comboFilters->setItemText(0, QCoreApplication::translate("MainWindow", "*.h;*.cpp;*.ui", nullptr));
         comboFilters->setItemText(1, QCoreApplication::translate("MainWindow", "*.txt", nullptr));

@@ -1,6 +1,6 @@
 [
     {
-        "canDelete": false,
+        "canDelete": true,
         "cartList": [
             {
                 "count": 1,
@@ -18,7 +18,7 @@
         "order_name": "宋二"
     },
     {
-        "canDelete": false,
+        "canDelete": true,
         "cartList": [
             {
                 "count": 1,
@@ -36,7 +36,7 @@
         "order_name": "宋三"
     },
     {
-        "canDelete": false,
+        "canDelete": true,
         "cartList": [
             {
                 "count": 1,

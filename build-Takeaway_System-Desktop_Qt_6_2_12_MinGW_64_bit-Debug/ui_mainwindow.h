@@ -385,7 +385,7 @@ public:
         data_admin_birth->setObjectName(QString::fromUtf8("data_admin_birth"));
         data_admin_birth->setMinimumSize(QSize(0, 0));
         data_admin_birth->setMaximumSize(QSize(16777215, 16777215));
-        data_admin_birth->setDateTime(QDateTime(QDate(2004, 2, 16), QTime(16, 0, 0)));
+        data_admin_birth->setDateTime(QDateTime(QDate(2004, 2, 16), QTime(8, 0, 0)));
 
         horizontalLayout_5->addWidget(data_admin_birth);
 
@@ -486,7 +486,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 660, 472));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 700, 548));
         verticalLayout_6 = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
         scrollArea->setWidget(scrollAreaWidgetContents);
@@ -696,7 +696,7 @@ public:
         checked_list->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
         scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 278, 477));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 268, 555));
         verticalLayout_7 = new QVBoxLayout(scrollAreaWidgetContents_2);
         verticalLayout_7->setObjectName(QString::fromUtf8("verticalLayout_7"));
         listWidget = new QListWidget(scrollAreaWidgetContents_2);
@@ -769,7 +769,7 @@ public:
         scrollArea_dishes->setWidgetResizable(true);
         scrollAreaWidgetContents_4 = new QWidget();
         scrollAreaWidgetContents_4->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_4"));
-        scrollAreaWidgetContents_4->setGeometry(QRect(0, 0, 660, 513));
+        scrollAreaWidgetContents_4->setGeometry(QRect(0, 0, 76, 16));
         scrollArea_dishes->setWidget(scrollAreaWidgetContents_4);
 
         verticalLayout_5->addWidget(scrollArea_dishes);
@@ -1058,7 +1058,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1007, 25));
+        menubar->setGeometry(QRect(0, 0, 1007, 17));
         menu = new QMenu(menubar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menubar);
@@ -1080,7 +1080,7 @@ public:
         toolBox->setObjectName(QString::fromUtf8("toolBox"));
         order_setting = new QWidget();
         order_setting->setObjectName(QString::fromUtf8("order_setting"));
-        order_setting->setGeometry(QRect(0, 0, 278, 519));
+        order_setting->setGeometry(QRect(0, 0, 268, 577));
         verticalLayout_3 = new QVBoxLayout(order_setting);
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         order_list = new QListWidget(order_setting);
